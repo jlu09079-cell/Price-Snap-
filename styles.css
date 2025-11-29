@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background: #f3f4f6;
+    padding: 20px;
+}
+
+body.dark {
+    background: #020617;
+    color: #e5e7eb;
+}
+
+.app {
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img{
+    padding: 6px 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+#results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+.product {
+    background: #fff;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+body.dark .product {
+    background: #1e293b;
+    color: #fff;
+}
+
+.price-pill {
+    background: #eef;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
